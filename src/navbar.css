@@ -1,0 +1,32 @@
+.App-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #2A9D8F;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.App-navbar > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.App-navbar > ul > li {
+    margin: 1em;
+}
+
+.App-navbar > ul > li > a {
+    border: 1px solid #E9C46A;
+    border-radius: .5em;
+    padding: .2em .75em .2em .75em;
+}
+
+.App-navbar > ul > li > a:hover {
+    background-color: #2A9D8F;
+    border: 1px solid #F4A261;
+    transition: 1s;
+}
+
+.App-navbar > img {
+    max-height: 5em;
+}
