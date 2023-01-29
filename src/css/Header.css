@@ -1,6 +1,6 @@
 .App-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #2A9D8F;
 }
@@ -8,7 +8,7 @@
 .App-header > div {
     display: flex;
     justify-content:flex-start;
-    margin: 1em auto 1em 1em;
+    margin-left: 2em;
 }
 
 .App-header > div > img {
@@ -22,25 +22,25 @@
 }
 
 .App-navbar {
-    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2em;
 }
 
 .App-navbar > ul > li {
-    list-style-type: none;
     display: inline-block;
-    padding: 0 .5em;
+    margin: 0 1em;
+    list-style-type: none;
+    font-size: 1.25rem;
 }
 
 .App-navbar > ul > li > a {
-    border: 1px solid #E9C46A;
-    border-radius: .5em;
     padding: .2em .75em .2em .75em;
 }
 
-.App-navbar > ul > li > a:hover {
-    background-color: #E9C46A;
-    border: 1px solid #264653;
-    transition: 1s;
+.App-navbar > ul > li:hover {
+    /*transition: 1s ease;*/
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {

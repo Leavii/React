@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #264653;
+  /*text-decoration: underline;*/
 }
 
 article {
