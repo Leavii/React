@@ -7,12 +7,14 @@
 
 .App-header > div {
     display: flex;
-    flex-direction: column;
+    justify-content:flex-start;
     margin: 1em auto 1em 1em;
 }
 
 .App-header > div > img {
     max-width: 5em;
+    height: auto;
+    padding: 0 2em;
 }
 
 .App-header > div > div > h1 {
