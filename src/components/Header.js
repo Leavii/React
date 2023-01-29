@@ -8,7 +8,7 @@ function Navbar() {
             <img src={logo} alt="React Logo" />
             <div>
                 <h1>React Test Site</h1>
-                <p className="App-signature">by Jacob Johns</p>
+                <p className="App-signature">by Me</p>
             </div>
         </div>
             <nav className="App-navbar">
