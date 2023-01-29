@@ -21,11 +21,6 @@
     margin-bottom: -.5em;
 }
 
-header > p {
-    text-align: center;
-    margin-top: -1.5em;
-}
-
 .App-navbar {
     margin: 1em;
 }
@@ -46,4 +41,10 @@ header > p {
     background-color: #E9C46A;
     border: 1px solid #264653;
     transition: 1s;
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    .App-navbar {
+        display: none;
+    }
 }
