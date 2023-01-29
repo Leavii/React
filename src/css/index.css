@@ -13,8 +13,12 @@ code {
     monospace;
 }
 
+h1 {
+  color: #E76F51;
+}
+
 p {
-  color: #2A9D8F;
+  color: #E76F51;
 }
 
 a {
@@ -23,5 +27,17 @@ a {
 }
 
 a:hover {
-  color: #F4A261;
+  color: #264653;
+}
+
+article {
+  border: 1px solid #2A9D8F;
+  border-radius: 1em;
+  margin: 2em;
+  padding: 0 1em 0 1em;
+}
+
+.App-signature {
+  font-style: italic;
+  padding-left: 2em;
 }
