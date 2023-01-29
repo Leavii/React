@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #264653;
-  max-width: 95%;
 }
 
 code {
@@ -14,7 +13,7 @@ code {
     monospace;
 }
 
-h1 {
+h1, h2 {
   color: #E76F51;
 }
 
@@ -32,10 +31,19 @@ a:hover {
 }
 
 article {
-  border: 1px solid #2A9D8F;
-  border-radius: 1em;
   margin: 2em;
   padding: 0 1em 0 1em;
+}
+
+article h2 {
+  text-align: center;
+}
+
+section {
+  margin: 0 auto 1.5em auto;
+  padding: 0 1em;
+  border: 1px solid #2A9D8F;
+  border-radius: 1em;
 }
 
 .App-signature {
